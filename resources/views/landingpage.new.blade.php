@@ -64,15 +64,15 @@
         </div>
 
         <div class="container mx-auto px-6 relative z-10 text-center">
-            <!-- <span class="inline-block py-1.5 px-4 rounded-full bg-blue-900/30 backdrop-blur-md border border-blue-500/30 text-blue-300 text-xs font-bold tracking-wider mb-6 shadow-xl">
+            <span class="inline-block py-1.5 px-4 rounded-full bg-blue-900/30 backdrop-blur-md border border-blue-500/30 text-blue-300 text-xs font-bold tracking-wider mb-6 shadow-xl">
                 ✨ SISTEM INFORMASI JASA KONSTRUKSI
-            </span> -->
+            </span>
             <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-8 tracking-tight">
-            <!-- <br>  -->
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-sky-300">Bangun Jakarta</span>
+                Portal Satu Data <br> 
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-sky-300">Layanan Jasa Konstruksi Jakarta.</span>
             </h1>
             <p class="text-lg text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed font-light">
-                Informasi seputar kegiatan konstruksi yang ada di Jakarta
+                Satu platform untuk semua kebutuhan: Cek harga material wilayah Jakarta, hitung estimasi biaya bangunan, dan temukan tenaga kerja bersertifikat di DKI Jakarta.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#hitung-cepat" class="group bg-blue-600 text-white px-8 py-4 rounded-full font-bold transition shadow-lg shadow-blue-600/40 hover:bg-blue-500 hover:scale-105 flex items-center justify-center gap-2">
@@ -92,13 +92,13 @@
                     <i class="fas fa-calculator"></i>
                 </div>
                 <h3 class="text-xl font-bold text-slate-900 mb-3">Hitung Cepat</h3>
-                <p class="text-slate-500 text-sm leading-relaxed">Estimasi biaya konstruksi instan dengan harga yang berlaku di Pemprov DKI.</p>
+                <p class="text-slate-500 text-sm leading-relaxed">Estimasi biaya konstruksi instan dengan algoritma cerdas berbasis data Pemprov DKI.</p>
             </div>
             <div class="bg-white/80 backdrop-blur-xl p-8 rounded-3xl shadow-xl shadow-blue-900/5 border border-white/50 hover:-translate-y-2 transition duration-300 group">
                 <div class="w-14 h-14 bg-cyan-50 text-cyan-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-cyan-600 group-hover:text-white transition-all duration-300 shadow-sm">
                     <i class="fas fa-hard-hat"></i>
                 </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-3">Tukang Bersertifikat</h3>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Tukang Pro</h3>
                 <p class="text-slate-500 text-sm leading-relaxed">Database tenaga kerja tersertifikasi, siap bekerja dengan standar profesional tinggi.</p>
             </div>
             <div class="bg-white/80 backdrop-blur-xl p-8 rounded-3xl shadow-xl shadow-blue-900/5 border border-white/50 hover:-translate-y-2 transition duration-300 group">
@@ -106,7 +106,7 @@
                     <i class="fas fa-cubes"></i>
                 </div>
                 <h3 class="text-xl font-bold text-slate-900 mb-3">Harga Material</h3>
-                <p class="text-slate-500 text-sm leading-relaxed">Harga satuan bahan bangunan terkini di seluruh wilayah Jakarta.</p>
+                <p class="text-slate-500 text-sm leading-relaxed">Transparansi harga satuan bahan bangunan terkini di seluruh wilayah Jakarta.</p>
             </div>
         </div>
     </section>
@@ -346,8 +346,7 @@
                 </a>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <a href="#" class="group relative rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 h-80">
                     <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=600&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Material">
                     <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-900/40 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
@@ -359,9 +358,8 @@
                         <p class="text-blue-200 text-xs line-clamp-2">Semen, pasir, bata, baja, dan material dasar lainnya.</p>
                     </div>
                 </a>
-
                 <a href="#" class="group relative rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 h-80">
-                    <img src="https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?q=80&w=600&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Alat Berat">
+                    <img src="https://images.unsplash.com/photo-1581094794329-cd136ce4ebd1?q=80&w=600&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Alat">
                     <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-900/40 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
                     <div class="absolute bottom-0 left-0 w-full p-6">
                         <div class="bg-cyan-600 w-10 h-10 rounded-lg flex items-center justify-center text-white mb-3 shadow-lg group-hover:scale-110 transition">
@@ -371,24 +369,33 @@
                         <p class="text-blue-200 text-xs line-clamp-2">Excavator, crane, dump truck, dan peralatan berat.</p>
                     </div>
                 </a>
-
                 <a href="#" class="group relative rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 h-80">
                     <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=600&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="SDM">
                     <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-900/40 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
                     <div class="absolute bottom-0 left-0 w-full p-6">
                         <div class="bg-sky-600 w-10 h-10 rounded-lg flex items-center justify-center text-white mb-3 shadow-lg group-hover:scale-110 transition">
-                            <i class="fas fa-hard-hat"></i>
+                            <i class="fas fa-user-hard-hat"></i>
                         </div>
                         <h4 class="text-xl font-bold text-white mb-1">Tenaga Kerja</h4>
                         <p class="text-blue-200 text-xs line-clamp-2">Tukang ahli, mandor, insinyur sipil, dan arsitek.</p>
                     </div>
                 </a>
-
+                <a href="#" class="group relative rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 h-80">
+                    <img src="https://plus.unsplash.com/premium_photo-1661962633099-0d268d098e9c?q=80&w=600&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Jasa">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-900/40 to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+                    <div class="absolute bottom-0 left-0 w-full p-6">
+                        <div class="bg-indigo-600 w-10 h-10 rounded-lg flex items-center justify-center text-white mb-3 shadow-lg group-hover:scale-110 transition">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-1">Jasa Konstruksi</h4>
+                        <p class="text-blue-200 text-xs line-clamp-2">Kontraktor, konsultan perencana, dan sub-kontraktor.</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
-   <section id="serba-serbi" class="py-32 bg-white">
+    <section id="serba-serbi" class="py-32 bg-white">
         <div class="container mx-auto px-6">
             <div class="flex justify-between items-end mb-12">
                 <div>
@@ -398,66 +405,50 @@
                 <a href="#" class="text-slate-900 font-bold hover:text-blue-600 transition flex items-center">Lihat Semua <i class="fas fa-arrow-right ml-2 text-sm"></i></a>
             </div>
 
-            <div class="flex flex-wrap justify-center gap-6">
-                
-                <div class="group cursor-pointer w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(20%-20px)]">
-                    <div class="rounded-3xl overflow-hidden mb-5 relative shadow-lg shadow-slate-200/50 h-72">
-                        <img src="https://images.unsplash.com/photo-1543269664-7eef42226a21?q=80&w=400&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Webinar">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="group cursor-pointer">
+                    <div class="rounded-3xl overflow-hidden mb-5 relative shadow-lg shadow-slate-200/50">
+                        <img src="https://images.unsplash.com/photo-1543269664-7eef42226a21?q=80&w=400&auto=format&fit=crop" class="w-full h-64 object-cover group-hover:scale-110 transition duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent"></div>
                         <div class="absolute bottom-5 left-5">
-                            <span class="bg-blue-600 text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">ONLINE</span>
-                            <h3 class="text-white font-bold text-lg leading-tight">Webinar</h3>
+                            <span class="bg-blue-600 text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">WEBINAR</span>
+                            <h3 class="text-white font-bold text-lg leading-tight">Rekaman: Green Building Jakarta</h3>
                         </div>
                         <div class="absolute top-5 right-5 w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white">
                             <i class="fas fa-play"></i>
                         </div>
                     </div>
                 </div>
-
-                <div class="group cursor-pointer w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(20%-20px)]">
-                    <div class="rounded-3xl overflow-hidden mb-5 relative shadow-lg shadow-slate-200/50 h-72">
-                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=400&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Edukasi">
+                <div class="group cursor-pointer">
+                    <div class="rounded-3xl overflow-hidden mb-5 relative shadow-lg shadow-slate-200/50">
+                        <img src="https://images.unsplash.com/photo-1590642916589-592bcaaa3e5a?q=80&w=400&auto=format&fit=crop" class="w-full h-64 object-cover group-hover:scale-110 transition duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent"></div>
                         <div class="absolute bottom-5 left-5">
-                            <span class="bg-emerald-600 text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">EDUKASI</span>
-                            <h3 class="text-white font-bold text-lg leading-tight">Edukasi Kompetensi Konstruksi</h3>
+                            <span class="bg-cyan-600 text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">KEGIATAN</span>
+                            <h3 class="text-white font-bold text-lg leading-tight">Kunjungan Proyek MRT Fase 2</h3>
                         </div>
                     </div>
                 </div>
-
-                <div class="group cursor-pointer w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(20%-20px)]">
-                    <div class="rounded-3xl overflow-hidden mb-5 relative shadow-lg shadow-slate-200/50 h-72">
-                        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=400&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Product Knowledge">
+                <div class="group cursor-pointer">
+                    <div class="rounded-3xl overflow-hidden mb-5 relative shadow-lg shadow-slate-200/50">
+                        <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=400&auto=format&fit=crop" class="w-full h-64 object-cover group-hover:scale-110 transition duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent"></div>
                         <div class="absolute bottom-5 left-5">
-                            <span class="bg-cyan-600 text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">INOVASI</span>
-                            <h3 class="text-white font-bold text-lg leading-tight">Product Knowledge</h3>
+                            <span class="bg-sky-600 text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">INOVASI</span>
+                            <h3 class="text-white font-bold text-lg leading-tight">Semen Instan Terbaru</h3>
                         </div>
                     </div>
                 </div>
-
-                <div class="group cursor-pointer w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(20%-20px)]">
-                    <div class="rounded-3xl overflow-hidden mb-5 relative shadow-lg shadow-slate-200/50 h-72">
-                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=400&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Kegiatan">
-                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent"></div>
-                        <div class="absolute bottom-5 left-5">
-                            <span class="bg-sky-600 text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">KEGIATAN</span>
-                            <h3 class="text-white font-bold text-lg leading-tight">Kegiatan Jasa Konstruksi</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="group cursor-pointer w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(20%-20px)]">
-                    <div class="rounded-3xl overflow-hidden mb-5 relative shadow-lg shadow-slate-200/50 h-72">
-                        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=400&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Kompetisi">
+                <div class="group cursor-pointer">
+                    <div class="rounded-3xl overflow-hidden mb-5 relative shadow-lg shadow-slate-200/50">
+                        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=400&auto=format&fit=crop" class="w-full h-64 object-cover group-hover:scale-110 transition duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent"></div>
                         <div class="absolute bottom-5 left-5">
                             <span class="bg-indigo-600 text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">KOMPETISI</span>
-                            <h3 class="text-white font-bold text-lg leading-tight">Kompetisi Tenaga Konstruksi</h3>
+                            <h3 class="text-white font-bold text-lg leading-tight">Lomba Tukang Cat</h3>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
